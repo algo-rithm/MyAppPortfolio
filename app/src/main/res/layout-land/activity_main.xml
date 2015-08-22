@@ -1,0 +1,104 @@
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        tools:context=".MainActivity"
+        android:background="#1dadbb">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/title"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:background="#ba0c3a9c">
+
+            <Button
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/project1"
+                android:id="@+id/button"
+                android:layout_gravity="center_horizontal"
+                android:width="400dp"
+                android:background="#1dadbb"
+                android:textColor="#ffffff"
+                android:onClick="launchProject1" />
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/project2"
+                android:id="@+id/button2"
+                android:layout_gravity="center_horizontal"
+                android:width="400dp"
+                android:background="#1dadbb"
+                android:textColor="#ffffff"
+                android:onClick="launchProject2" />
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/project3"
+                android:id="@+id/button3"
+                android:layout_gravity="center_horizontal"
+                android:width="400dp"
+                android:background="#1dadbb"
+                android:textColor="#ffffff"
+                android:onClick="launchProject3" />
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/project4"
+                android:id="@+id/button4"
+                android:layout_gravity="center_horizontal"
+                android:width="400dp"
+                android:background="#1dadbb"
+                android:textColor="#ffffff"
+                android:onClick="launchProject4" />
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/project5"
+                android:id="@+id/button5"
+                android:layout_gravity="center_horizontal"
+                android:width="400dp"
+                android:background="#1dadbb"
+                android:textColor="#ffffff"
+                android:onClick="launchProject5" />
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/project6"
+                android:id="@+id/button6"
+                android:layout_gravity="center_horizontal"
+                android:width="400dp"
+                android:background="#F08C35"
+                android:textColor="#ffffff"
+                android:onClick="launchProject6" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></LinearLayout>
+    </LinearLayout>
